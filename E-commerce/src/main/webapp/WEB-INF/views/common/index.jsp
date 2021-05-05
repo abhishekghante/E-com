@@ -2,7 +2,9 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 
-
+<%
+session.getAttribute("");
+%>
 
 <html>
 <head>

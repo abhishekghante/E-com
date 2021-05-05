@@ -45,8 +45,14 @@
 		<beans:property name="dataSource" ref="ds" />
 	</beans:bean>
 
-	<beans:bean id="dao" class="com.Ecommerce.Dao.userDaoImpl">
+	<beans:bean id="userDao" class="com.Ecommerce.Dao.userDaoImpl">
 		<beans:property name="template" ref="jt" />
 	</beans:bean>
+	
+	<beans:bean id="categoryDao" class="com.Ecommerce.Dao.categoryDaoImpl">
+		<beans:property name="template" ref="jt" />
+	</beans:bean>
+
+
 
 </beans:beans>
